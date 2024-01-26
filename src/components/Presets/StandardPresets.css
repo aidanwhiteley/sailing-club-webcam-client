@@ -1,0 +1,7 @@
+#presets-toolbar button.active {
+    background-color: red;
+}
+
+#presets-toolbar {
+    justify-content: center !important;
+}

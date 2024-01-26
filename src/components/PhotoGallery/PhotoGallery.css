@@ -1,0 +1,9 @@
+.gallery-info {
+    font-size: larger;
+    margin-top: 15px;
+    margin-bottom: 15px;;
+}
+
+.info-no-style {
+    list-style-type: none;
+}

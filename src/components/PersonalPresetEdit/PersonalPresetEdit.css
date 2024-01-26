@@ -1,0 +1,35 @@
+.personal-preset-edit {
+    border: 1px;
+    border-color: black;
+    border-radius: 6px;
+    border-style: solid;
+    text-align: left;
+}
+
+.preset-name {
+    margin-top: 1.5em;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-check-input {
+    margin-top: 0.8em;
+}
+
+.form-guidance {
+    font-size: smaller;
+    font-style: italic;
+}
+
+.personal-preset-edit input[type='checkbox'] {
+    border-color: black;
+}
+
+a.link {
+    text-decoration: dashed !important;
+}
+
+.delete-info {
+    font-size: 10px;
+    font-style: italic;
+}

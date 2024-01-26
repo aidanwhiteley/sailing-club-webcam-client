@@ -1,0 +1,11 @@
+
+  
+  .move-range-input {
+    width: 60% !important;
+    height: 10px !important;
+    accent-color: rgb(124, 123, 123) !important;
+  }
+
+  .move-range-label {
+    margin-top: 10px;
+  }
