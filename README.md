@@ -39,8 +39,9 @@ As well as needing to point to a webcam video stream, this "front end code" is d
 2. Edit the URL/paths in src/apis/HttpDataApis.tsx for the URLs to your back end implementation of the required HTTP APIs
 3. Edit the URL path in the sendKeepAliveMessage() function in src/components/WebcamControls/WebCamControls.tsx for the URL path to the websocket subscribe endpoint on your back end implementation
 4. Edit the URL path in src/App.tsx for the `StompSessionProvider` URL in your back end implementation. As per the name, this functionaility expects the use of the [Stomp](https://stomp.github.io/) protocol over the websocket connection
-5. Edit the URL in src/components/ErrorMessage/ErrorMessage.tsx to point to a URL for a contact who can provide help for any problems
-6. More generally, the code was originally written for Starcross Yacht Club (SYC) only and hasn't yet been genericised. Therefore, a search of the codebase for the strings "SYC" and "Starcross" is recommended so that you can decide which to change to something more appropriate for your usage.
+5. Assuming you are also running the required server side code on your device, you may need to tell this prohect where it is running. By default, this code (in `vite.config.ts`) expects the server side API and pictures to be available at http://localhost:8000/webcam/api and http://localhost:8080/webcam-pics. Edit vite.config.ts if required.
+6. Edit the URL in src/components/ErrorMessage/ErrorMessage.tsx to point to a URL for a contact who can provide help for any problems
+7. More generally, the code was originally written for Starcross Yacht Club (SYC) only and hasn't yet been genericised. Therefore, a search of the codebase for the strings "SYC" and "Starcross" is recommended so that you can decide which to change to something more appropriate for your usage.
 
 At some point, I may pull all these values out to single config file to make editing easier! Maybe.
 
